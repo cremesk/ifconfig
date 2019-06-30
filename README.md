@@ -1,17 +1,23 @@
 ifconfig
 ========
 
-Yet Another ifconfig inspired by http://ifconfig.me, the online demo is  [https://ifconfig.minidump.info](https://ifconfig.minidump.info).
+Yet Another ifconfig inspired by http://ifconfig.me, the online demo is [https://whois.envs.net](https://whois.envs.net).
 
-[![Build Status](https://secure.travis-ci.org/dfordsoft/ifconfig.png)](https://travis-ci.org/dfordsoft/ifconfig) [![GitHub release](https://img.shields.io/github/release/dfordsoft/ifconfig.svg?maxAge=2592000)](https://github.com/dfordsoft/ifconfig/releases) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dfordsoft/ifconfig/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/dfordsoft/ifconfig/master/LICENSE)
 
 
-Build
+Install / Build
+----
+```bash
+wget -O /opt/ https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
+tar -C /usr/local -xzf /opt/go1.12.6.linux-amd64.tar.gz
+git clone https://github.com/cremesk/ifconfig.git
+
+go get github.com/cremesk/ifconfig
+go build main.go
+```
+
+Download
 ----
 
-`go get github.com/dfordsoft/ifconfig`
-
-Download 
-----
-
-Click this button to download the binary for your platform: [![GitHub release](https://img.shields.io/github/release/dfordsoft/ifconfig.svg?maxAge=2592000)](https://github.com/dfordsoft/ifconfig/releases) 
+Click this button to download the binary for your platform: [![GitHub release](https://img.shields.io/github/release/dfordsoft/ifconfig.svg?maxAge=2592000)](https://github.com/dfordsoft/ifconfig/releases)
