@@ -27,7 +27,7 @@
       #info_table td{border: solid 1px #888;padding: 0px 10px;}
       .info_table_label{width:100px;}
       #table_ads{width:260px;text-align:center;}
-      #middle{height:110px;clear:both;text-align:center;padding-top:20px;}
+      #middle{height:10px;clear:both;text-align:center;padding-top:20px;}
       #cli_wrap{margin:0 10px;}
       h2{height:30px;line-height:30px;font-size:18px;margin:0 5px;padding-left:5px;}
       #cli_table{border:solid 1px #888;border-collapse:collapse;width:728px;margin:0 auto;line-height:20px;table-layout:fixed;}
@@ -65,14 +65,7 @@
       </div>
       <div id="ads">
 <!-- Ads begin -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-    style="display:inline-block;width:728px;height:15px"
-    data-ad-client="ca-pub-3435940217424489"
-    data-ad-slot="9166587836"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 <!-- Ads end -->
       </div>
       <div id="info_area">
@@ -83,14 +76,7 @@
             <td id="ip_address_cell"><strong id="ip_address">{{.IP}}</strong></td>
             <td rowspan="8" id="table_ads">
 <!-- Ads begin -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-    style="display:inline-block;width:250px;height:250px"
-    data-ad-client="ca-pub-3435940217424489"
-    data-ad-slot="9166587836"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 <!-- Ads end -->
 
             </td>
@@ -112,14 +98,7 @@
       </div>
       <div id="middle">
 <!-- Ads begin -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<ins class="adsbygoogle"
-    style="display:inline-block;width:728px;height:90px"
-    data-ad-client="ca-pub-3435940217424489"
-    data-ad-slot="9166587836"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+
 <!-- Ads end -->
       </div>
       <div id="cli_wrap">
