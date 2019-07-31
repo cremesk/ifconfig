@@ -104,21 +104,21 @@
       <div id="cli_wrap">
         <h2>Command Line Interface</h2>
         <table id="cli_table" summary="cli">
-          <tr><td class="cli_command">$ curl https://whois.envs.net</td><td class="cli_arrow">&rArr;</td><td>{{.IP}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/ip</td><td class="cli_arrow">&rArr;</td><td>{{.IP}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/host</td><td class="cli_arrow">&rArr;</td><td>{{.Host}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/ua</td><td class="cli_arrow">&rArr;</td><td>{{.UserAgent}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/port</td><td class="cli_arrow">&rArr;</td><td>{{.Port}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/lang</td><td class="cli_arrow">&rArr;</td><td>{{.Lang}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/keepalive</td><td class="cli_arrow">&rArr;</td><td>{{.Keepalive}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/connection</td><td class="cli_arrow">&rArr;</td><td>{{.Connection}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/encoding</td><td class="cli_arrow">&rArr;</td><td>{{.Encoding}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/mime</td><td class="cli_arrow">&rArr;</td><td>{{.Mime}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/charset</td><td class="cli_arrow">&rArr;</td><td>{{.Charset}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/via</td><td class="cli_arrow">&rArr;</td><td>{{.Via}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/forwarded</td><td class="cli_arrow">&rArr;</td><td>{{.Forwarded}}</td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/all</td><td class="cli_arrow">&rArr;</td><td>ip_addr: {{.IP}}<br />remote_host: {{.Host}} <br />user_agent: {{.UserAgent}}<br />port: {{.Port}}<br />lang: {{.Lang}}<br />connection: {{.Connection}}<br />keep_alive: {{.Keepalive}}<br />encoding: {{.Encoding}}<br />mime: {{.Mime}}<br />charset: {{.Charset}}<br />via: {{.Via}}<br />forwarded: {{.Forwarded}}<br /></td></tr>
-          <tr><td class="cli_command">$ curl https://whois.envs.net/all.xml</td><td class="cli_arrow">&rArr;</td><td>&lt;info&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;charset&gt;{{.Charset}}&lt;/charset&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;connection&gt;{{.Connection}}&lt;/connection&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;encoding&gt;{{.Encoding}}&lt;/encoding&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;forwarded&gt;{{.Forwarded}}&lt;/forwarded&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;ip_addr&gt;{{.IP}}&lt;/ip_addr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;keep_alive&gt;{{.Keepalive}}&lt;/keep_alive&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;lang&gt;{{.Lang}}&lt;/lang&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;mime&gt;{{.Mime}}&lt;/mime&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;port&gt;{{.Port}}&lt;/port&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;remote_host&gt;{{.Host}}&lt;/remote_host&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;user_agent&gt;{{.UserAgent}}&lt;/user_agent&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;via&gt;{{.Via}}&lt;/via&gt;<br />
+          <tr><td class="cli_command">$ curl whois.envs.net</td><td class="cli_arrow">&rArr;</td><td>{{.IP}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/ip</td><td class="cli_arrow">&rArr;</td><td>{{.IP}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/host</td><td class="cli_arrow">&rArr;</td><td>{{.Host}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/ua</td><td class="cli_arrow">&rArr;</td><td>{{.UserAgent}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/port</td><td class="cli_arrow">&rArr;</td><td>{{.Port}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/lang</td><td class="cli_arrow">&rArr;</td><td>{{.Lang}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/keepalive</td><td class="cli_arrow">&rArr;</td><td>{{.Keepalive}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/connection</td><td class="cli_arrow">&rArr;</td><td>{{.Connection}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/encoding</td><td class="cli_arrow">&rArr;</td><td>{{.Encoding}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/mime</td><td class="cli_arrow">&rArr;</td><td>{{.Mime}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/charset</td><td class="cli_arrow">&rArr;</td><td>{{.Charset}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/via</td><td class="cli_arrow">&rArr;</td><td>{{.Via}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/forwarded</td><td class="cli_arrow">&rArr;</td><td>{{.Forwarded}}</td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/all</td><td class="cli_arrow">&rArr;</td><td>ip_addr: {{.IP}}<br />remote_host: {{.Host}} <br />user_agent: {{.UserAgent}}<br />port: {{.Port}}<br />lang: {{.Lang}}<br />connection: {{.Connection}}<br />keep_alive: {{.Keepalive}}<br />encoding: {{.Encoding}}<br />mime: {{.Mime}}<br />charset: {{.Charset}}<br />via: {{.Via}}<br />forwarded: {{.Forwarded}}<br /></td></tr>
+          <tr><td class="cli_command">$ curl whois.envs.net/all.xml</td><td class="cli_arrow">&rArr;</td><td>&lt;info&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;charset&gt;{{.Charset}}&lt;/charset&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;connection&gt;{{.Connection}}&lt;/connection&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;encoding&gt;{{.Encoding}}&lt;/encoding&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;forwarded&gt;{{.Forwarded}}&lt;/forwarded&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;ip_addr&gt;{{.IP}}&lt;/ip_addr&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;keep_alive&gt;{{.Keepalive}}&lt;/keep_alive&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;lang&gt;{{.Lang}}&lt;/lang&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;mime&gt;{{.Mime}}&lt;/mime&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;port&gt;{{.Port}}&lt;/port&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;remote_host&gt;{{.Host}}&lt;/remote_host&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;user_agent&gt;{{.UserAgent}}&lt;/user_agent&gt;<br />&nbsp;&nbsp;&nbsp;&nbsp;&lt;via&gt;{{.Via}}&lt;/via&gt;<br />
 &lt;/info&gt;<br />
 </td></tr>
           <tr><td class="cli_command">$ curl https://whois.envs.net/all.json</td><td class="cli_arrow">&rArr;</td><td>{"connection":"{{.Connection}}","ip_addr":"{{.IP}}","lang":"{{.Lang}}","remote_host":"{{.Host}}","user_agent":"{{.UserAgent}}","charset":"{{.Charset}}","port":"{{.Port}}","via":"{{.Via}}","forwarded":"{{.Forwarded}}","mime":"{{.Mime}}","keep_alive":"{{.Keepalive}}","encoding":"{{.Encoding}}"}</td></tr>
