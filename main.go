@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/astaxie/beego"
-	_ "github.com/dfordsoft/ifconfig/routers"
+	_ "github.com/envs-net/ifconfig/routers"
 )
 
 const (
